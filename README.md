@@ -4,23 +4,19 @@
 Starter project for OpenGL in C++. Uses GLEW and GLFW
 
 ## Dependencies
-*  GLEW 
+
+* GLEW
 ````sudo apt-get install -y libglew-dev````
+
 * GLFW
 ```sudo apt-get install -y libglfw3-dev```
 
 
+## Instructions
 
+* Source files (```.cpp```) go in ```src/```
 
-# opengl-starter
+* Header files go in ```include/```
 
-Starter project for OpenGL in C++. Uses GLEW and GLFW
-
-## Dependencies
-*  GLEW 
-````sudo apt-get install -y libglew-dev````
-* GLFW
-```sudo apt-get install -y libglfw3-dev```
-
-
-
+### TODO: 
+* Add CMake support
