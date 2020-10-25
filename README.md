@@ -25,8 +25,13 @@ Starter project for OpenGL in C++. Uses GLEW and GLFW
 
 * Create a ``build`` folder and ``cd`` into it and run ``cmake ..``     (pass cmake args as needed)
 
-
-
+### Support for GLUT 
+Add these to your ``CMakeLists.txt``
+```cmake
+find_package(GLUT REQUIRED)
+include_directories( ... ${GLUT_INCLUDE_DIRS})
+target_link_libraries(... ${GLUT_LIBRARY})
+```
 ### Docs
 * [CMake Tutorial](http://derekmolloy.ie/hello-world-introductions-to-cmake/)
 
