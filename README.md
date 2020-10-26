@@ -34,4 +34,4 @@ target_link_libraries(... ${GLUT_LIBRARY})
 ```
 ### Docs
 * [CMake Tutorial](http://derekmolloy.ie/hello-world-introductions-to-cmake/)
-
+* [GLFW Docs](https://www.glfw.org/docs/3.3/)
